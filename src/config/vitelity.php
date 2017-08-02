@@ -1,7 +1,7 @@
 <?php
 return [
 	// API URL
-	'url'       =>	'https://mor.url.com',
+	'url'       =>	'http://api.vitelity.net/api.php',
 
     // API LOGIN
     'login'     =>	'admin_user',

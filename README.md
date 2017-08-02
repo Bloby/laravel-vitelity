@@ -47,7 +47,7 @@ Open `config/vitelity.php` and configure the api endpoint and credentials:
 ```php
 return [
     // API URL
-    'url'       =>	'https://mor.url.com',
+    'url'       =>	'http://api.vitelity.net/api.php',
 
     // API LOGIN
     'login'     =>	'admin_user',
