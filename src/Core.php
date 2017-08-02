@@ -49,13 +49,13 @@ class Core {
      */
     public function __construct()
     {
-        $this->api_url          = config('voipinnovations.url');
-        $this->login            = config('voipinnovations.login');
-        $this->password         = config('voipinnovations.password');
+        $this->api_url          = config('vitelity.url');
+        $this->login            = config('vitelity.login');
+        $this->password         = config('vitelity.password');
 
         $this->client = new Client([
             'base_uri'  => $this->api_url,
-            'timeout'   => config('voipinnovations.timeout')
+            'timeout'   => config('vitelity.timeout')
         ]);
     }
 
