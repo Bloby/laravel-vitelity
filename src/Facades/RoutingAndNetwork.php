@@ -31,6 +31,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static mixed intlrates()
  * @method static mixed blocklist($cid, $type = null, $did = null)
  * @method static mixed updatednis($did, $dnis)
+ * @method static mixed updatednis1($did)
  * @method static mixed subintl($sub, $action)
  *
  * @see \Vitelity\Core

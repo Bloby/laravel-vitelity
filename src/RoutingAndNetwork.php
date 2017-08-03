@@ -425,6 +425,22 @@ class RoutingAndNetwork extends Core {
 
 
     /**
+     * Update DNIS for specific DID number
+     *
+     * @param string $did 10 digit DID number
+     * @return mixed
+     *
+     * @see http://apihelp.vitelity.net/#updatednis
+     */
+    public function updatednis1($did)
+    {
+        $cmd = 'updatednis';
+        $dnis = '1'.$did;
+        return $this->submitRequest(compact(['cmd','did','dnis']));
+    }
+
+
+    /**
      * Toggle International Access on Sub Accounts
      *
      * @param string $sub Sub Account or IP
